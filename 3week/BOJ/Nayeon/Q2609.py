@@ -8,3 +8,11 @@ def gcd(a,b):
 print(gcd(a, b))
 # 최소 공배수
 print((a*b)//gcd(a,b))    
+
+## 2번째 방법
+# import math
+
+# a, b = map(int, input().split())
+
+# print(math.gcd(a, b))
+# print(math.lcm(a, b))
